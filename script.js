@@ -438,7 +438,7 @@ const Menu = () => {
                     React.createElement("div", { className: "app-menu-content-header-section" },
                         React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right-from-arc", id: "sign-out-button", userStatus: UserStatus.LoggedOut }))),
                 React.createElement(QuickNav, null),
-                React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://www.youtube.com/c/Hyperplexed", target: "_blank" },
+                React.createElement("a", { id: "linkedin-link", className: "clear-button", href: "https://www.linkedin.com/in/matheus-johnson-2672a5273/", target: "_blank" },
                     React.createElement("i", { className: "fa-brands fa-youtube" }),
                     React.createElement("span", null, "Hyperplexed")),
                 React.createElement(Weather, null),
